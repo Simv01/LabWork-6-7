@@ -20,7 +20,7 @@ int main()
 	KI aray[n] = {};
 	for (int i = 0; i < n; i++)
 	{
-		cout<< "\n[" << i + 1 << "]" << endl;
+		cout << "\n[" << i + 1 << "]" << endl;
 		cout << "\nName\t";
 		cin.getline(aray[i].name, 60);
 
@@ -36,13 +36,13 @@ int main()
 
 
 	}
-	
+
 	for (int i = 0; i < n; i++)
 	{
-		cout << "\n[" << i + 1 << "]" << "\n[Name]" << names << "\n[Family]\t" << familys << "\n[Age]\t" << ages << "\n[Height]\t" << heights << endl;
+		cout << "\n[" << i + 1 << "]\t" << "\n[Name]\t" << names << "\n[Family]\t" << familys << "\n[Age]\t" << ages << "\n[Height]\t" << heights << endl;
 	}
-	cout<<endl;
-	
+	cout << endl;
+
 
 
 
